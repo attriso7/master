@@ -1,8 +1,5 @@
 pipeline {
-	agent {
-		label{
-			label 'Build-in'
-		}
+	agent any {
 	}
 
 	stages {
