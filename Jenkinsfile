@@ -2,7 +2,6 @@ pipeline {
 	agent {
 		label{
 			label 'Build-in'
-			customWorkspace '/root/gitrepo/
 		}
 	}
 
