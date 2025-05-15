@@ -8,6 +8,7 @@ pipeline {
 
 	stages {
 		stage('stage 1') {
+				cleanWs()
 				echo 'hello world'
 			}
 		}
