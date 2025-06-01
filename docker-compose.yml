@@ -4,4 +4,4 @@ services:
     ports:
       - "80:80"
     volumes:
-      - "${PWD}:/usr/local/apache2/htdocs/"
+      - "${PWD}/master:/usr/local/apache2/htdocs/"
