@@ -1,0 +1,5 @@
+services:
+  service: httpd 
+      image: httpd:latest
+      port: 80:80
+      volume: /new/master:/usr/local/apache2/webapp
