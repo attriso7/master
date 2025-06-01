@@ -1,5 +1,7 @@
 services:
-  service: httpd 
-      image: httpd:latest
-      port: 80:80
-      volume: /new/master:/usr/local/apache2/webapp
+  webapp:
+    image: 'httpd'
+    ports:
+      - "80:80"
+    volumes:
+      - "${PWD}:/usr/local/apache2/htdocs/"
